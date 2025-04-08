@@ -31,3 +31,4 @@ C:\Users\ronni\Documents\programming\.net_web_api\grocery_store_test\obj\Debug\n
 C:\Users\ronni\Documents\programming\.net_web_api\grocery_store_test\obj\Debug\net9.0\grocery_store_test.pdb
 C:\Users\ronni\Documents\programming\.net_web_api\grocery_store_test\obj\Debug\net9.0\grocery_store_test.genruntimeconfig.cache
 C:\Users\ronni\Documents\programming\.net_web_api\grocery_store_test\obj\Debug\net9.0\ref\grocery_store_test.dll
+C:\Users\ronni\Documents\programming\.net_web_api\grocery_store_test\obj\Debug\net9.0\grocery_store_test.sourcelink.json
