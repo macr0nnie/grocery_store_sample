@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aUH3worSOWQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ronni\\Documents\\programming\\.net_web_api\\grocery_store_test\\grocery_store_test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ronni\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.2\\microsoft.aspnetcore.openapi.9.0.2.nupkg.sha512",
+    "C:\\Users\\ronni\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
