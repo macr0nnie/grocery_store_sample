@@ -1,8 +1,9 @@
-
+[ApiController]
+[Route("api/[controller]")]
 public class ProductsController: ControllerBase
 {
    
-   public List<Product> products;
+   private readonly List<Product> products;
     public ProductsController(){
         //initialize products
         products = new List<Product>();
@@ -14,13 +15,15 @@ public class ProductsController: ControllerBase
     }
 
    //get all products
+   [HttpGet]
    GetALLProducts(){
         //return all products
         return products;
-   }
-
+    }
+  0
    //get one product
-   GetOneProduct(int id){
+   [HttpGet("{Id}")] 
+   public ActionResult<Product> GetOneProduct(int id){
         //return one product
         foreach(Product product in products){
              if(product.ID == id){
@@ -29,18 +32,16 @@ public class ProductsController: ControllerBase
         }
         return null; //change to 401 not found
    }
-
    //create a product
+   [HttpPost]
    PostProduct(Product product){
         //add a product to the list
         products.Add(product);
         return product; //return the product    
    }
-
    //update a product
 
 
    //delete a product
-
 
 }
