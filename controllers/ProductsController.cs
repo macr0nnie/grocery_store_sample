@@ -13,14 +13,13 @@ public class ProductsController: ControllerBase
         products.Add(new Product(4, "Grapes", 1.0f));
         products.Add(new Product(5, "Mango", 1.5f));
     }
-
    //get all products
    [HttpGet]
    GetALLProducts(){
         //return all products
         return products;
     }
-  0
+/*
    //get one product
    [HttpGet("{Id}")] 
    public ActionResult<Product> GetOneProduct(int id){
@@ -43,5 +42,5 @@ public class ProductsController: ControllerBase
 
 
    //delete a product
-
+*/
 }
