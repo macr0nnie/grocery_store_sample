@@ -36,6 +36,16 @@ app.MapGet("/weatherforecast", () =>
 app.MapGet("/", () => "Hello World!")
     .WithName("GetHelloWorld");
 
+//put the products endpoint here, this is the main page 
+app.MapGet("/Products", () => "Hello Products!")
+    .WithName("GetProducts");
+
+app.MapGet("/Products/{id}", (int id) => $"Hello Product {id}!")
+    .WithName("GetProductById");
+
+//add a new product 
+
+
 
 app.Run();
 
